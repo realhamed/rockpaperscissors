@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.gameContainer {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 20px;
+  font-family: cursive;
+  border-radius: 15px;
+  background-color: lightgray;
+  text-align: center;
+}
+#playerResult {
+  /* padding-bottom: 10px; */
+  color: blue;
+}
+#computerResult {
+  color: red;
+  /* padding-bottom: 15px; */
+}
+#result {
+  padding-bottom: 15px;
+}
+.gameBtn {
+  line-height: 30px;
+  width: 150px;
+}
